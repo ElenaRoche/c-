@@ -25,16 +25,45 @@ int main(){
 case 1:
      digito=n1%10;
      n1=n1/10;
-     if(digito%2==0){
-                     suma=suma+digito;
+     if(n1%2==0){
+                if(digito%2==0){
+                                suma=n1+digito;
+                                
+                }
+                else{
+                     suma=suma+n1;
+                }
+     }
+     else{
+          if(digito%2==0){
+                          suma=suma+digito;
+          }
+          else{
+               suma=suma;
+          }
      }
      cout<<suma;
+     return 0;
      break;
 case 2: 
      digito2=n1%10;
      n1=n1/10;
-     if(digito2%2!=0){
-                     suma_2=suma_2+digito2;
+     if(n1%2!=0){
+                if(digito2%2!=0){
+                                suma_2=n1+digito2;
+                                
+                }
+                else{
+                     suma_2=suma_2+n1;
+                }
+     }
+     else{
+          if(digito2%2!=0){
+                          suma_2=suma_2+digito2;
+          }
+          else{
+               suma_2=suma_2;
+          }
      }
      cout<<suma_2;
      return 0;     

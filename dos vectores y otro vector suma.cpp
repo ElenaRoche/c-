@@ -20,7 +20,7 @@ int main(){
     //Mostramo el vector por pantalla
     for (int cont=0;cont<5;cont++){
         if(cont==4){
-                    cout<<"["suma[cont]<<"]";
+                    cout<<"["<<suma[cont]<<"]";
         }
         if (cont!=0 && cont!=4){
                      cout<<suma[cont]<<",";

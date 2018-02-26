@@ -44,7 +44,7 @@ int main(){
     printf("\nLISTA ORDENADA: ");
     for(cont=0;cont<5;cont++){
                               printf("\n%s",lista[cont]);
-     }
+    }
     printf("\nToca cualquier tecla: ");
     scanf("%i",&salir);
 }

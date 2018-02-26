@@ -8,8 +8,8 @@ int main(){
     scanf("%s",palabra1);
     printf("\nDime algo mas: ");
     scanf("%s",palabra2);
-    printf("direccion palabra1 = %x",palabra1);
+    printf("direccion palabra1 = %x",&palabra1);
     printf("palabra1 = %s\n",palabra1);
-    printf("palabra2 = %s  ",palabra2);
+    printf("direccionpalabra2 = %x  ",&palabra2);
     scanf("%i",&salir);
 }
